@@ -20,7 +20,7 @@ p{
 #question{
     font-size:20px;
     color: darkgrey;
-    padding-top: 30%;
+    padding-top: 10%;
     text-align: center;
 }
 
@@ -32,12 +32,12 @@ input{
     border-color: white;
     outline: none;
     background-color: #181A1a;
-    color: white;
+    color:white;
 }
 
-button{
+#confirm{
     margin-top: 5%;
-    background-color: #498CEB; 
+    background-color: #2879ec; 
     border-radius: 25px;
     border: none;
     color: white;
@@ -46,4 +46,33 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+#confirm:active{
+    background-color: #498CEB;
+}
+
+#key{
+    margin-top: 5%;
+    background-color: #181A1a; 
+    
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#key:active{
+    background-color: #303434;
+}
+
+@media (max-width: 600px)
+{
+    #equation{
+        font-size: 64px;
+    }
 }
